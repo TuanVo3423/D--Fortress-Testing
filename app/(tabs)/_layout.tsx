@@ -11,38 +11,9 @@ export default function TabLayout() {
         }}
       />
       <Stack.Screen
-        name="create"
+        name="play"
         options={{
-          title: "Approval Matrix",
-          headerShown: true,
-          headerBackVisible: true,
-          headerStyle: {
-            backgroundColor: "#eb951b",
-          },
-          headerTitleAlign: "center",
-          headerTitleStyle: {
-            color: "white",
-            fontSize: 22,
-          },
-          headerTintColor: "white",
-        }}
-      />
-
-      <Stack.Screen
-        name="update"
-        options={{
-          title: "Approval Matrix",
-          headerShown: true,
-          headerBackVisible: true,
-          headerStyle: {
-            backgroundColor: "#eb951b",
-          },
-          headerTitleAlign: "center",
-          headerTitleStyle: {
-            color: "white",
-            fontSize: 22,
-          },
-          headerTintColor: "white",
+          title: "Play",
         }}
       />
     </Stack>
